@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="emptyList">No news articles to show</string>
+    <string name="news_article_thumbnail">News article thumbnail</string>
+    <string name="search_news_articles">Search news articles</string>
+    <string name="txt_search">Search</string>
+</resources>
