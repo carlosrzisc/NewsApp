@@ -1,7 +1,5 @@
 package com.example.newsapp;
 
-import android.graphics.Bitmap;
-
 /**
  * News Article model
  * Created by carlos on 11/12/16.
@@ -19,35 +17,16 @@ class NewsArticle {
         this.url = url;
     }
 
-    public String getTitle() {
+    String getTitle() {
         return title;
     }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getSection() {
+    String getSection() {
         return section;
     }
-
-    public void setSection(String section) {
-        this.section = section;
-    }
-
-    public String getImage() {
+    String getImage() {
         return image;
     }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
-
-    public String getUrl() {
+    String getUrl() {
         return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
     }
 }
